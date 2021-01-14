@@ -29,8 +29,8 @@ namespace menew_teste3
 		/// </summary>
 		private void InitializeComponent()
 		{
-			System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle5 = new System.Windows.Forms.DataGridViewCellStyle();
-			System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle6 = new System.Windows.Forms.DataGridViewCellStyle();
+			System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle3 = new System.Windows.Forms.DataGridViewCellStyle();
+			System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle4 = new System.Windows.Forms.DataGridViewCellStyle();
 			this.TxNomeCliente = new MaterialSkin.Controls.MaterialTextBox();
 			this.TxTelefone = new MaterialSkin.Controls.MaterialTextBox();
 			this.TxEmail = new MaterialSkin.Controls.MaterialTextBox();
@@ -272,9 +272,9 @@ namespace menew_teste3
 			this.GridClientes.AllowUserToAddRows = false;
 			this.GridClientes.AllowUserToDeleteRows = false;
 			this.GridClientes.AllowUserToOrderColumns = true;
-			dataGridViewCellStyle5.ForeColor = System.Drawing.Color.White;
-			dataGridViewCellStyle5.SelectionForeColor = System.Drawing.Color.White;
-			this.GridClientes.AlternatingRowsDefaultCellStyle = dataGridViewCellStyle5;
+			dataGridViewCellStyle3.ForeColor = System.Drawing.Color.White;
+			dataGridViewCellStyle3.SelectionForeColor = System.Drawing.Color.White;
+			this.GridClientes.AlternatingRowsDefaultCellStyle = dataGridViewCellStyle3;
 			this.GridClientes.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
@@ -287,11 +287,11 @@ namespace menew_teste3
 			this.GridClientes.Name = "GridClientes";
 			this.GridClientes.ReadOnly = true;
 			this.GridClientes.RowHeadersVisible = false;
-			dataGridViewCellStyle6.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(38)))), ((int)(((byte)(50)))), ((int)(((byte)(56)))));
-			dataGridViewCellStyle6.ForeColor = System.Drawing.Color.White;
-			dataGridViewCellStyle6.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(55)))), ((int)(((byte)(71)))), ((int)(((byte)(79)))));
-			dataGridViewCellStyle6.SelectionForeColor = System.Drawing.Color.White;
-			this.GridClientes.RowsDefaultCellStyle = dataGridViewCellStyle6;
+			dataGridViewCellStyle4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(38)))), ((int)(((byte)(50)))), ((int)(((byte)(56)))));
+			dataGridViewCellStyle4.ForeColor = System.Drawing.Color.White;
+			dataGridViewCellStyle4.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(55)))), ((int)(((byte)(71)))), ((int)(((byte)(79)))));
+			dataGridViewCellStyle4.SelectionForeColor = System.Drawing.Color.White;
+			this.GridClientes.RowsDefaultCellStyle = dataGridViewCellStyle4;
 			this.GridClientes.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
 			this.GridClientes.ShowEditingIcon = false;
 			this.GridClientes.Size = new System.Drawing.Size(364, 355);
