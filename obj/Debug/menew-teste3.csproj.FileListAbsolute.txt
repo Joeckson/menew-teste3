@@ -1,0 +1,15 @@
+C:\Users\andre\source\repos\menew-teste3\bin\Debug\menew-teste3.exe.config
+C:\Users\andre\source\repos\menew-teste3\bin\Debug\menew-teste3.exe
+C:\Users\andre\source\repos\menew-teste3\bin\Debug\menew-teste3.pdb
+C:\Users\andre\source\repos\menew-teste3\bin\Debug\MaterialSkin.dll
+C:\Users\andre\source\repos\menew-teste3\obj\Debug\menew-teste3.csprojAssemblyReference.cache
+C:\Users\andre\source\repos\menew-teste3\obj\Debug\menew_teste3.Properties.Resources.resources
+C:\Users\andre\source\repos\menew-teste3\obj\Debug\menew-teste3.csproj.GenerateResource.cache
+C:\Users\andre\source\repos\menew-teste3\obj\Debug\menew-teste3.csproj.CoreCompileInputs.cache
+C:\Users\andre\source\repos\menew-teste3\obj\Debug\menew-teste3.csproj.CopyComplete
+C:\Users\andre\source\repos\menew-teste3\obj\Debug\menew-teste3.exe
+C:\Users\andre\source\repos\menew-teste3\obj\Debug\menew-teste3.pdb
+C:\Users\andre\source\repos\menew-teste3\obj\Debug\menew_teste3.Clientes.resources
+C:\Users\andre\source\repos\menew-teste3\bin\Debug\FirebirdSql.Data.FirebirdClient.dll
+C:\Users\andre\source\repos\menew-teste3\bin\Debug\Newtonsoft.Json.dll
+C:\Users\andre\source\repos\menew-teste3\bin\Debug\Newtonsoft.Json.xml
