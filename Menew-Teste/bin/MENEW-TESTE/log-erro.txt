@@ -1,0 +1,243 @@
+12/01/2021 19:33: erro ao salvar usuário => Dynamic SQL Error
+SQL error code = -104
+Token unknown - line 1, column 12
+(
+----------------------------------------------------------------------------
+
+12/01/2021 19:34: erro ao salvar usuário => validation error for column ID, value "*** null ***"
+----------------------------------------------------------------------------
+
+12/01/2021 19:45: Erro ao buscar id => Dynamic SQL Error
+SQL error code = -204
+Table unknown
+USUARIOS
+At line 1, column 21
+----------------------------------------------------------------------------
+
+12/01/2021 19:46: Erro ao buscar id => Access to external file "USUARIO" is denied by server administrator
+----------------------------------------------------------------------------
+		clica na celula
+	    int id = Convert.ToInt32(this.dbGrupo.CurrentRow.Cells[0].Value.ToString());
+            txtNome.Text = this.dbGrupo.CurrentRow.Cells[1].Value.ToString();
+
+int id = Convert.ToInt32(this.dbGrupo.CurrentRow.Cells[0].Value.ToString());
+
+ public void OrganizaGrid()
+        {
+            dbGrupo.Columns[0].Visible = false;
+            dbGrupo.Columns[1].Width = 170;
+        }13/01/2021 20:09: erro ao salvar usuário => Must declare the variable '@ID'
+----------------------------------------------------------------------------
+
+13/01/2021 20:13: jose rodrigo foi Cadastrado com sucesso!
+----------------------------------------------------------------------------
+
+13/01/2021 20:15:  Usuario foi deletado! 1
+----------------------------------------------------------------------------
+
+13/01/2021 20:15: RODRIGO foi Cadastrado com sucesso!
+----------------------------------------------------------------------------
+
+13/01/2021 21:37: MARIA foi Cadastrado com sucesso!
+----------------------------------------------------------------------------
+
+13/01/2021 21:41: Erro ao carregar tabela=>Dynamic SQL Error
+SQL error code = -104
+Unexpected end of command - line 1, column 38
+----------------------------------------------------------------------------
+
+13/01/2021 21:41: Erro ao carregar tabela=>Dynamic SQL Error
+SQL error code = -104
+Unexpected end of command - line 1, column 38
+----------------------------------------------------------------------------
+
+13/01/2021 21:41: Erro ao carregar tabela=>Dynamic SQL Error
+SQL error code = -104
+Unexpected end of command - line 1, column 38
+----------------------------------------------------------------------------
+
+13/01/2021 21:41: Erro ao carregar tabela=>Dynamic SQL Error
+SQL error code = -104
+Unexpected end of command - line 1, column 38
+----------------------------------------------------------------------------
+
+13/01/2021 21:41: Erro ao carregar tabela=>Dynamic SQL Error
+SQL error code = -104
+Unexpected end of command - line 1, column 38
+----------------------------------------------------------------------------
+
+13/01/2021 21:44: Erro ao carregar tabela=>Dynamic SQL Error
+SQL error code = -204
+Table unknown
+TBPRODUTO
+At line 1, column 25
+----------------------------------------------------------------------------
+
+13/01/2021 21:44: Erro ao carregar tabela=>Dynamic SQL Error
+SQL error code = -204
+Table unknown
+TBPRODUTO
+At line 1, column 25
+----------------------------------------------------------------------------
+
+13/01/2021 21:44: Erro ao carregar tabela=>Dynamic SQL Error
+SQL error code = -204
+Table unknown
+TBPRODUTO
+At line 1, column 25
+----------------------------------------------------------------------------
+
+13/01/2021 21:44: Erro ao carregar tabela=>Dynamic SQL Error
+SQL error code = -204
+Table unknown
+TBPRODUTO
+At line 1, column 25
+----------------------------------------------------------------------------
+
+13/01/2021 21:44: Erro ao carregar tabela=>Dynamic SQL Error
+SQL error code = -204
+Table unknown
+TBPRODUTO
+At line 1, column 25
+----------------------------------------------------------------------------
+
+13/01/2021 21:44: Erro ao carregar tabela=>Dynamic SQL Error
+SQL error code = -204
+Table unknown
+TBPRODUTO
+At line 1, column 25
+----------------------------------------------------------------------------
+
+13/01/2021 21:44: Erro ao carregar tabela=>Dynamic SQL Error
+SQL error code = -204
+Table unknown
+TBPRODUTO
+At line 1, column 25
+----------------------------------------------------------------------------
+
+13/01/2021 21:44: Erro ao carregar tabela=>Dynamic SQL Error
+SQL error code = -204
+Table unknown
+TBPRODUTO
+At line 1, column 25
+----------------------------------------------------------------------------
+
+13/01/2021 21:44: Erro ao carregar tabela=>Dynamic SQL Error
+SQL error code = -204
+Table unknown
+TBPRODUTO
+At line 1, column 25
+----------------------------------------------------------------------------
+
+13/01/2021 21:44: Erro ao carregar tabela=>Dynamic SQL Error
+SQL error code = -204
+Table unknown
+TBPRODUTO
+At line 1, column 25
+----------------------------------------------------------------------------
+
+13/01/2021 21:45: Erro ao carregar tabela=>Dynamic SQL Error
+SQL error code = -204
+Table unknown
+TBPRODUTOS
+At line 1, column 26
+----------------------------------------------------------------------------
+
+13/01/2021 21:45: Erro ao carregar tabela=>Dynamic SQL Error
+SQL error code = -204
+Table unknown
+TBPRODUTOS
+At line 1, column 26
+----------------------------------------------------------------------------
+
+13/01/2021 21:45: Erro ao carregar tabela=>Dynamic SQL Error
+SQL error code = -204
+Table unknown
+TBPRODUTOS
+At line 1, column 26
+----------------------------------------------------------------------------
+
+13/01/2021 21:45: Erro ao carregar tabela=>Dynamic SQL Error
+SQL error code = -204
+Table unknown
+TBPRODUTOS
+At line 1, column 26
+----------------------------------------------------------------------------
+
+13/01/2021 21:45: Erro ao carregar tabela=>Dynamic SQL Error
+SQL error code = -204
+Table unknown
+TBPRODUTOS
+At line 1, column 26
+----------------------------------------------------------------------------
+
+13/01/2021 21:45: Erro ao carregar tabela=>Dynamic SQL Error
+SQL error code = -204
+Table unknown
+TBPRODUTOS
+At line 1, column 26
+----------------------------------------------------------------------------
+
+13/01/2021 21:45: Erro ao carregar tabela=>Dynamic SQL Error
+SQL error code = -204
+Table unknown
+TBPRODUTOS
+At line 1, column 26
+----------------------------------------------------------------------------
+
+13/01/2021 21:45: Erro ao carregar tabela=>Dynamic SQL Error
+SQL error code = -204
+Table unknown
+TBPRODUTOS
+At line 1, column 26
+----------------------------------------------------------------------------
+
+13/01/2021 21:45: Erro ao carregar tabela=>Dynamic SQL Error
+SQL error code = -204
+Table unknown
+TBPRODUTOS
+At line 1, column 26
+----------------------------------------------------------------------------
+
+13/01/2021 21:45: Erro ao carregar tabela=>Dynamic SQL Error
+SQL error code = -204
+Table unknown
+TBPRODUTOS
+At line 1, column 26
+----------------------------------------------------------------------------
+
+13/01/2021 21:45: Erro ao carregar tabela=>Dynamic SQL Error
+SQL error code = -204
+Table unknown
+TBPRODUTOS
+At line 1, column 26
+----------------------------------------------------------------------------
+
+13/01/2021 21:45: Erro ao carregar tabela=>Dynamic SQL Error
+SQL error code = -204
+Table unknown
+TBPRODUTOS
+At line 1, column 26
+----------------------------------------------------------------------------
+
+13/01/2021 21:45: Erro ao carregar tabela=>Dynamic SQL Error
+SQL error code = -204
+Table unknown
+TBPRODUTOS
+At line 1, column 26
+----------------------------------------------------------------------------
+
+13/01/2021 21:45: Erro ao carregar tabela=>Dynamic SQL Error
+SQL error code = -204
+Table unknown
+TBPRODUTOS
+At line 1, column 26
+----------------------------------------------------------------------------
+
+13/01/2021 21:45: Erro ao carregar tabela=>Dynamic SQL Error
+SQL error code = -204
+Table unknown
+TBPRODUTOS
+At line 1, column 26
+----------------------------------------------------------------------------
+
