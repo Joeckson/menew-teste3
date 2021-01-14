@@ -12,3 +12,4 @@ C:\Users\andre\source\repos\menew-teste3\obj\Debug\menew_teste3.Clientes.resourc
 C:\Users\andre\source\repos\menew-teste3\bin\Debug\FirebirdSql.Data.FirebirdClient.dll
 C:\Users\andre\source\repos\menew-teste3\bin\Debug\Newtonsoft.Json.dll
 C:\Users\andre\source\repos\menew-teste3\bin\Debug\Newtonsoft.Json.xml
+C:\Users\andre\source\repos\menew-teste3\obj\Debug\menew-teste3.csprojAssemblyReference.cache

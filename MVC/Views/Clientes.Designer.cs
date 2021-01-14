@@ -29,8 +29,8 @@ namespace menew_teste3
 		/// </summary>
 		private void InitializeComponent()
 		{
-			System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle1 = new System.Windows.Forms.DataGridViewCellStyle();
-			System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle2 = new System.Windows.Forms.DataGridViewCellStyle();
+			System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle5 = new System.Windows.Forms.DataGridViewCellStyle();
+			System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle6 = new System.Windows.Forms.DataGridViewCellStyle();
 			this.TxNomeCliente = new MaterialSkin.Controls.MaterialTextBox();
 			this.TxTelefone = new MaterialSkin.Controls.MaterialTextBox();
 			this.TxEmail = new MaterialSkin.Controls.MaterialTextBox();
@@ -206,6 +206,7 @@ namespace menew_teste3
 			// 
 			// BtNovoCliente
 			// 
+			this.BtNovoCliente.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
 			this.BtNovoCliente.AutoSize = false;
 			this.BtNovoCliente.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
 			this.BtNovoCliente.Depth = 0;
@@ -226,6 +227,7 @@ namespace menew_teste3
 			// 
 			// BtEditarCliente
 			// 
+			this.BtEditarCliente.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
 			this.BtEditarCliente.AutoSize = false;
 			this.BtEditarCliente.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
 			this.BtEditarCliente.Depth = 0;
@@ -246,6 +248,7 @@ namespace menew_teste3
 			// 
 			// BtDeletarCliente
 			// 
+			this.BtDeletarCliente.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
 			this.BtDeletarCliente.AutoSize = false;
 			this.BtDeletarCliente.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
 			this.BtDeletarCliente.Depth = 0;
@@ -269,9 +272,12 @@ namespace menew_teste3
 			this.GridClientes.AllowUserToAddRows = false;
 			this.GridClientes.AllowUserToDeleteRows = false;
 			this.GridClientes.AllowUserToOrderColumns = true;
-			dataGridViewCellStyle1.ForeColor = System.Drawing.Color.White;
-			dataGridViewCellStyle1.SelectionForeColor = System.Drawing.Color.White;
-			this.GridClientes.AlternatingRowsDefaultCellStyle = dataGridViewCellStyle1;
+			dataGridViewCellStyle5.ForeColor = System.Drawing.Color.White;
+			dataGridViewCellStyle5.SelectionForeColor = System.Drawing.Color.White;
+			this.GridClientes.AlternatingRowsDefaultCellStyle = dataGridViewCellStyle5;
+			this.GridClientes.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
 			this.GridClientes.BackgroundColor = System.Drawing.Color.FromArgb(((int)(((byte)(50)))), ((int)(((byte)(50)))), ((int)(((byte)(50)))));
 			this.GridClientes.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
 			this.GridClientes.EditMode = System.Windows.Forms.DataGridViewEditMode.EditProgrammatically;
@@ -281,11 +287,11 @@ namespace menew_teste3
 			this.GridClientes.Name = "GridClientes";
 			this.GridClientes.ReadOnly = true;
 			this.GridClientes.RowHeadersVisible = false;
-			dataGridViewCellStyle2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(38)))), ((int)(((byte)(50)))), ((int)(((byte)(56)))));
-			dataGridViewCellStyle2.ForeColor = System.Drawing.Color.White;
-			dataGridViewCellStyle2.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(55)))), ((int)(((byte)(71)))), ((int)(((byte)(79)))));
-			dataGridViewCellStyle2.SelectionForeColor = System.Drawing.Color.White;
-			this.GridClientes.RowsDefaultCellStyle = dataGridViewCellStyle2;
+			dataGridViewCellStyle6.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(38)))), ((int)(((byte)(50)))), ((int)(((byte)(56)))));
+			dataGridViewCellStyle6.ForeColor = System.Drawing.Color.White;
+			dataGridViewCellStyle6.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(55)))), ((int)(((byte)(71)))), ((int)(((byte)(79)))));
+			dataGridViewCellStyle6.SelectionForeColor = System.Drawing.Color.White;
+			this.GridClientes.RowsDefaultCellStyle = dataGridViewCellStyle6;
 			this.GridClientes.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
 			this.GridClientes.ShowEditingIcon = false;
 			this.GridClientes.Size = new System.Drawing.Size(364, 355);
@@ -294,6 +300,7 @@ namespace menew_teste3
 			// 
 			// Pn1
 			// 
+			this.Pn1.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
 			this.Pn1.Controls.Add(this.BtCancelar);
 			this.Pn1.Controls.Add(this.BtSalvar);
 			this.Pn1.Location = new System.Drawing.Point(21, 390);
@@ -384,6 +391,8 @@ namespace menew_teste3
 			this.Controls.Add(this.TxEmail);
 			this.Controls.Add(this.TxTelefone);
 			this.Controls.Add(this.TxNomeCliente);
+			this.MaximizeBox = false;
+			this.MinimumSize = new System.Drawing.Size(844, 450);
 			this.Name = "Clientes";
 			this.Text = "Cadastro de clientes";
 			this.Load += new System.EventHandler(this.Clientes_Load);
