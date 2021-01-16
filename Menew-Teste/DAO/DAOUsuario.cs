@@ -36,7 +36,7 @@ namespace Menew_Teste.DAO
                 {
                     comando.ExecuteNonQuery();
                     util.Log(usuario.Nome + " foi Cadastrado com sucesso!");
-                    MessageBox.Show("Salvo com sucesso!");
+                    MessageBox.Show("Salvo com sucesso!","Alerta",MessageBoxButtons.OK,MessageBoxIcon.Asterisk);
                 }
                 catch (Exception e)
                 {
@@ -73,7 +73,7 @@ namespace Menew_Teste.DAO
                 {
                     comando.ExecuteNonQuery();
                     util.Log(usuario.Nome + " foi Cadastrado com sucesso!");
-                    MessageBox.Show("Salvo com sucesso!");
+                    MessageBox.Show("Usuario alterado com sucesso!","Alerta",MessageBoxButtons.OK,MessageBoxIcon.Asterisk);
                 }
                 catch (Exception e)
                 {
@@ -99,7 +99,7 @@ namespace Menew_Teste.DAO
                 {
                     comando.ExecuteNonQuery();
                     util.Log(" Usuario foi deletado! "+_id);
-                    MessageBox.Show("Usuario deletado!");
+                    MessageBox.Show("Usuario deletado!","Alerta",MessageBoxButtons.OK,MessageBoxIcon.Asterisk);
                 }
                 catch (Exception e)
                 {

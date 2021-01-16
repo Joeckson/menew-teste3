@@ -1,0 +1,14 @@
+C:\MENEW\Menew-Teste\bin\Menew Teste\Menew-Teste.exe.config
+C:\MENEW\Menew-Teste\bin\Menew Teste\Menew-Teste.exe
+C:\MENEW\Menew-Teste\bin\Menew Teste\FirebirdSql.Data.FirebirdClient.dll
+C:\MENEW\Menew-Teste\bin\Menew Teste\Newtonsoft.Json.dll
+C:\MENEW\Menew-Teste\bin\Menew Teste\RestSharp.dll
+C:\MENEW\Menew-Teste\bin\Menew Teste\FirebirdSql.Data.FirebirdClient.pdb
+C:\MENEW\Menew-Teste\bin\Menew Teste\Newtonsoft.Json.xml
+C:\MENEW\Menew-Teste\bin\Menew Teste\RestSharp.xml
+C:\MENEW\Menew-Teste\obj\Menew Teste\Menew_Teste.Form1.resources
+C:\MENEW\Menew-Teste\obj\Menew Teste\Menew_Teste.Properties.Resources.resources
+C:\MENEW\Menew-Teste\obj\Menew Teste\Menew-Teste.csproj.GenerateResource.cache
+C:\MENEW\Menew-Teste\obj\Menew Teste\Menew-Teste.csproj.CoreCompileInputs.cache
+C:\MENEW\Menew-Teste\obj\Menew Teste\Menew-Teste.csproj.CopyComplete
+C:\MENEW\Menew-Teste\obj\Menew Teste\Menew-Teste.exe
