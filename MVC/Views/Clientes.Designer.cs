@@ -41,16 +41,22 @@ namespace menew_teste3
 			this.TxRua = new MaterialSkin.Controls.MaterialTextBox();
 			this.TxNumero = new MaterialSkin.Controls.MaterialTextBox();
 			this.TxComplemento = new MaterialSkin.Controls.MaterialTextBox();
-			this.BtNovoCliente = new MaterialSkin.Controls.MaterialButton();
-			this.BtEditarCliente = new MaterialSkin.Controls.MaterialButton();
-			this.BtDeletarCliente = new MaterialSkin.Controls.MaterialButton();
 			this.GridClientes = new System.Windows.Forms.DataGridView();
 			this.Pn1 = new System.Windows.Forms.Panel();
 			this.BtCancelar = new MaterialSkin.Controls.MaterialButton();
 			this.BtSalvar = new MaterialSkin.Controls.MaterialButton();
 			this.BtCarregarCep = new MaterialSkin.Controls.MaterialButton();
+			this.TxSearch = new MaterialSkin.Controls.MaterialTextBox();
+			this.LbSearch = new System.Windows.Forms.Label();
+			this.panel1 = new System.Windows.Forms.Panel();
+			this.BtDeletarCliente = new MaterialSkin.Controls.MaterialButton();
+			this.BtEditarCliente = new MaterialSkin.Controls.MaterialButton();
+			this.BtNovoCliente = new MaterialSkin.Controls.MaterialButton();
+			this.BtDescobrirCep = new MaterialSkin.Controls.MaterialButton();
+			this.BtSearch = new MaterialSkin.Controls.MaterialButton();
 			((System.ComponentModel.ISupportInitialize)(this.GridClientes)).BeginInit();
 			this.Pn1.SuspendLayout();
+			this.panel1.SuspendLayout();
 			this.SuspendLayout();
 			// 
 			// TxNomeCliente
@@ -75,7 +81,7 @@ namespace menew_teste3
 			this.TxTelefone.Font = new System.Drawing.Font("Roboto", 12F);
 			this.TxTelefone.Hint = "Telefone";
 			this.TxTelefone.Location = new System.Drawing.Point(294, 83);
-			this.TxTelefone.MaxLength = 400;
+			this.TxTelefone.MaxLength = 11;
 			this.TxTelefone.MouseState = MaterialSkin.MouseState.OUT;
 			this.TxTelefone.Multiline = false;
 			this.TxTelefone.Name = "TxTelefone";
@@ -163,7 +169,7 @@ namespace menew_teste3
 			this.TxRua.Depth = 0;
 			this.TxRua.Font = new System.Drawing.Font("Roboto", 12F);
 			this.TxRua.Hint = "Rua";
-			this.TxRua.Location = new System.Drawing.Point(21, 268);
+			this.TxRua.Location = new System.Drawing.Point(22, 268);
 			this.TxRua.MaxLength = 400;
 			this.TxRua.MouseState = MaterialSkin.MouseState.OUT;
 			this.TxRua.Multiline = false;
@@ -180,7 +186,7 @@ namespace menew_teste3
 			this.TxNumero.Font = new System.Drawing.Font("Roboto", 12F);
 			this.TxNumero.Hint = "Nº";
 			this.TxNumero.Location = new System.Drawing.Point(401, 268);
-			this.TxNumero.MaxLength = 2;
+			this.TxNumero.MaxLength = 5;
 			this.TxNumero.MouseState = MaterialSkin.MouseState.OUT;
 			this.TxNumero.Multiline = false;
 			this.TxNumero.Name = "TxNumero";
@@ -203,69 +209,6 @@ namespace menew_teste3
 			this.TxComplemento.Size = new System.Drawing.Size(440, 50);
 			this.TxComplemento.TabIndex = 5;
 			this.TxComplemento.Text = "";
-			// 
-			// BtNovoCliente
-			// 
-			this.BtNovoCliente.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
-			this.BtNovoCliente.AutoSize = false;
-			this.BtNovoCliente.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
-			this.BtNovoCliente.Depth = 0;
-			this.BtNovoCliente.DrawShadows = true;
-			this.BtNovoCliente.HighEmphasis = true;
-			this.BtNovoCliente.Icon = null;
-			this.BtNovoCliente.Location = new System.Drawing.Point(21, 397);
-			this.BtNovoCliente.Margin = new System.Windows.Forms.Padding(4, 6, 4, 6);
-			this.BtNovoCliente.MouseState = MaterialSkin.MouseState.HOVER;
-			this.BtNovoCliente.Name = "BtNovoCliente";
-			this.BtNovoCliente.Size = new System.Drawing.Size(140, 41);
-			this.BtNovoCliente.TabIndex = 11;
-			this.BtNovoCliente.Text = "Novo";
-			this.BtNovoCliente.Type = MaterialSkin.Controls.MaterialButton.MaterialButtonType.Contained;
-			this.BtNovoCliente.UseAccentColor = false;
-			this.BtNovoCliente.UseVisualStyleBackColor = true;
-			this.BtNovoCliente.Click += new System.EventHandler(this.BtNovoCliente_Click);
-			// 
-			// BtEditarCliente
-			// 
-			this.BtEditarCliente.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
-			this.BtEditarCliente.AutoSize = false;
-			this.BtEditarCliente.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
-			this.BtEditarCliente.Depth = 0;
-			this.BtEditarCliente.DrawShadows = true;
-			this.BtEditarCliente.HighEmphasis = true;
-			this.BtEditarCliente.Icon = null;
-			this.BtEditarCliente.Location = new System.Drawing.Point(172, 397);
-			this.BtEditarCliente.Margin = new System.Windows.Forms.Padding(4, 6, 4, 6);
-			this.BtEditarCliente.MouseState = MaterialSkin.MouseState.HOVER;
-			this.BtEditarCliente.Name = "BtEditarCliente";
-			this.BtEditarCliente.Size = new System.Drawing.Size(140, 41);
-			this.BtEditarCliente.TabIndex = 12;
-			this.BtEditarCliente.Text = "Editar";
-			this.BtEditarCliente.Type = MaterialSkin.Controls.MaterialButton.MaterialButtonType.Contained;
-			this.BtEditarCliente.UseAccentColor = false;
-			this.BtEditarCliente.UseVisualStyleBackColor = true;
-			this.BtEditarCliente.Click += new System.EventHandler(this.BtEditarCliente_Click);
-			// 
-			// BtDeletarCliente
-			// 
-			this.BtDeletarCliente.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
-			this.BtDeletarCliente.AutoSize = false;
-			this.BtDeletarCliente.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
-			this.BtDeletarCliente.Depth = 0;
-			this.BtDeletarCliente.DrawShadows = true;
-			this.BtDeletarCliente.HighEmphasis = true;
-			this.BtDeletarCliente.Icon = null;
-			this.BtDeletarCliente.Location = new System.Drawing.Point(321, 397);
-			this.BtDeletarCliente.Margin = new System.Windows.Forms.Padding(4, 6, 4, 6);
-			this.BtDeletarCliente.MouseState = MaterialSkin.MouseState.HOVER;
-			this.BtDeletarCliente.Name = "BtDeletarCliente";
-			this.BtDeletarCliente.Size = new System.Drawing.Size(140, 41);
-			this.BtDeletarCliente.TabIndex = 13;
-			this.BtDeletarCliente.Text = "Deletar";
-			this.BtDeletarCliente.Type = MaterialSkin.Controls.MaterialButton.MaterialButtonType.Contained;
-			this.BtDeletarCliente.UseAccentColor = false;
-			this.BtDeletarCliente.UseVisualStyleBackColor = true;
-			this.BtDeletarCliente.Click += new System.EventHandler(this.BtDeletarCliente_Click);
 			// 
 			// GridClientes
 			// 
@@ -322,7 +265,7 @@ namespace menew_teste3
 			this.BtCancelar.MouseState = MaterialSkin.MouseState.HOVER;
 			this.BtCancelar.Name = "BtCancelar";
 			this.BtCancelar.Size = new System.Drawing.Size(140, 41);
-			this.BtCancelar.TabIndex = 14;
+			this.BtCancelar.TabIndex = 7;
 			this.BtCancelar.Text = "Cancelar";
 			this.BtCancelar.Type = MaterialSkin.Controls.MaterialButton.MaterialButtonType.Outlined;
 			this.BtCancelar.UseAccentColor = true;
@@ -342,7 +285,7 @@ namespace menew_teste3
 			this.BtSalvar.MouseState = MaterialSkin.MouseState.HOVER;
 			this.BtSalvar.Name = "BtSalvar";
 			this.BtSalvar.Size = new System.Drawing.Size(140, 41);
-			this.BtSalvar.TabIndex = 13;
+			this.BtSalvar.TabIndex = 6;
 			this.BtSalvar.Text = "Salvar";
 			this.BtSalvar.Type = MaterialSkin.Controls.MaterialButton.MaterialButtonType.Contained;
 			this.BtSalvar.UseAccentColor = true;
@@ -370,20 +313,175 @@ namespace menew_teste3
 			this.BtCarregarCep.UseVisualStyleBackColor = true;
 			this.BtCarregarCep.Click += new System.EventHandler(this.BtCarregarCep_Click);
 			// 
+			// TxSearch
+			// 
+			this.TxSearch.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+			this.TxSearch.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(55)))), ((int)(((byte)(71)))), ((int)(((byte)(79)))));
+			this.TxSearch.BorderStyle = System.Windows.Forms.BorderStyle.None;
+			this.TxSearch.Depth = 0;
+			this.TxSearch.Font = new System.Drawing.Font("Roboto", 12F);
+			this.TxSearch.Hint = "Cliente";
+			this.TxSearch.Location = new System.Drawing.Point(468, 26);
+			this.TxSearch.MaxLength = 400;
+			this.TxSearch.MouseState = MaterialSkin.MouseState.OUT;
+			this.TxSearch.Multiline = false;
+			this.TxSearch.Name = "TxSearch";
+			this.TxSearch.Size = new System.Drawing.Size(364, 36);
+			this.TxSearch.TabIndex = 17;
+			this.TxSearch.Text = "";
+			this.TxSearch.UseTallSize = false;
+			this.TxSearch.TextChanged += new System.EventHandler(this.TxSearch_TextChanged);
+			this.TxSearch.Leave += new System.EventHandler(this.TxSearch_Leave);
+			// 
+			// LbSearch
+			// 
+			this.LbSearch.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+			this.LbSearch.BackColor = System.Drawing.Color.Transparent;
+			this.LbSearch.Font = new System.Drawing.Font("Segoe UI Semibold", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+			this.LbSearch.ForeColor = System.Drawing.Color.White;
+			this.LbSearch.Location = new System.Drawing.Point(468, 25);
+			this.LbSearch.Name = "LbSearch";
+			this.LbSearch.Size = new System.Drawing.Size(364, 37);
+			this.LbSearch.TabIndex = 18;
+			this.LbSearch.Text = " Click para buscar o cliente";
+			this.LbSearch.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+			this.LbSearch.Click += new System.EventHandler(this.LbSearch_Click);
+			// 
+			// panel1
+			// 
+			this.panel1.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
+			this.panel1.Controls.Add(this.BtDeletarCliente);
+			this.panel1.Controls.Add(this.BtEditarCliente);
+			this.panel1.Controls.Add(this.BtNovoCliente);
+			this.panel1.Location = new System.Drawing.Point(21, 390);
+			this.panel1.Name = "panel1";
+			this.panel1.Size = new System.Drawing.Size(440, 48);
+			this.panel1.TabIndex = 20;
+			// 
+			// BtDeletarCliente
+			// 
+			this.BtDeletarCliente.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
+			this.BtDeletarCliente.AutoSize = false;
+			this.BtDeletarCliente.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
+			this.BtDeletarCliente.Depth = 0;
+			this.BtDeletarCliente.DrawShadows = true;
+			this.BtDeletarCliente.HighEmphasis = true;
+			this.BtDeletarCliente.Icon = null;
+			this.BtDeletarCliente.Location = new System.Drawing.Point(300, 4);
+			this.BtDeletarCliente.Margin = new System.Windows.Forms.Padding(4, 6, 4, 6);
+			this.BtDeletarCliente.MouseState = MaterialSkin.MouseState.HOVER;
+			this.BtDeletarCliente.Name = "BtDeletarCliente";
+			this.BtDeletarCliente.Size = new System.Drawing.Size(140, 41);
+			this.BtDeletarCliente.TabIndex = 13;
+			this.BtDeletarCliente.Text = "Deletar";
+			this.BtDeletarCliente.Type = MaterialSkin.Controls.MaterialButton.MaterialButtonType.Contained;
+			this.BtDeletarCliente.UseAccentColor = false;
+			this.BtDeletarCliente.UseVisualStyleBackColor = true;
+			this.BtDeletarCliente.Click += new System.EventHandler(this.BtDeletarCliente_Click);
+			// 
+			// BtEditarCliente
+			// 
+			this.BtEditarCliente.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
+			this.BtEditarCliente.AutoSize = false;
+			this.BtEditarCliente.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
+			this.BtEditarCliente.Depth = 0;
+			this.BtEditarCliente.DrawShadows = true;
+			this.BtEditarCliente.HighEmphasis = true;
+			this.BtEditarCliente.Icon = null;
+			this.BtEditarCliente.Location = new System.Drawing.Point(151, 4);
+			this.BtEditarCliente.Margin = new System.Windows.Forms.Padding(4, 6, 4, 6);
+			this.BtEditarCliente.MouseState = MaterialSkin.MouseState.HOVER;
+			this.BtEditarCliente.Name = "BtEditarCliente";
+			this.BtEditarCliente.Size = new System.Drawing.Size(140, 41);
+			this.BtEditarCliente.TabIndex = 12;
+			this.BtEditarCliente.Text = "Editar";
+			this.BtEditarCliente.Type = MaterialSkin.Controls.MaterialButton.MaterialButtonType.Contained;
+			this.BtEditarCliente.UseAccentColor = false;
+			this.BtEditarCliente.UseVisualStyleBackColor = true;
+			this.BtEditarCliente.Click += new System.EventHandler(this.BtEditarCliente_Click);
+			// 
+			// BtNovoCliente
+			// 
+			this.BtNovoCliente.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
+			this.BtNovoCliente.AutoSize = false;
+			this.BtNovoCliente.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
+			this.BtNovoCliente.Depth = 0;
+			this.BtNovoCliente.DrawShadows = true;
+			this.BtNovoCliente.HighEmphasis = true;
+			this.BtNovoCliente.Icon = null;
+			this.BtNovoCliente.Location = new System.Drawing.Point(0, 4);
+			this.BtNovoCliente.Margin = new System.Windows.Forms.Padding(4, 6, 4, 6);
+			this.BtNovoCliente.MouseState = MaterialSkin.MouseState.HOVER;
+			this.BtNovoCliente.Name = "BtNovoCliente";
+			this.BtNovoCliente.Size = new System.Drawing.Size(140, 41);
+			this.BtNovoCliente.TabIndex = 14;
+			this.BtNovoCliente.Text = "Novo";
+			this.BtNovoCliente.Type = MaterialSkin.Controls.MaterialButton.MaterialButtonType.Contained;
+			this.BtNovoCliente.UseAccentColor = false;
+			this.BtNovoCliente.UseVisualStyleBackColor = true;
+			this.BtNovoCliente.Click += new System.EventHandler(this.BtNovoCliente_Click);
+			// 
+			// BtDescobrirCep
+			// 
+			this.BtDescobrirCep.AutoSize = false;
+			this.BtDescobrirCep.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
+			this.BtDescobrirCep.Cursor = System.Windows.Forms.Cursors.Hand;
+			this.BtDescobrirCep.Depth = 0;
+			this.BtDescobrirCep.DrawShadows = true;
+			this.BtDescobrirCep.HighEmphasis = true;
+			this.BtDescobrirCep.Icon = null;
+			this.BtDescobrirCep.Location = new System.Drawing.Point(295, 139);
+			this.BtDescobrirCep.Margin = new System.Windows.Forms.Padding(4, 6, 4, 6);
+			this.BtDescobrirCep.MouseState = MaterialSkin.MouseState.HOVER;
+			this.BtDescobrirCep.Name = "BtDescobrirCep";
+			this.BtDescobrirCep.Size = new System.Drawing.Size(166, 50);
+			this.BtDescobrirCep.TabIndex = 21;
+			this.BtDescobrirCep.Text = "Descobrir meu CEP";
+			this.BtDescobrirCep.Type = MaterialSkin.Controls.MaterialButton.MaterialButtonType.Outlined;
+			this.BtDescobrirCep.UseAccentColor = true;
+			this.BtDescobrirCep.UseVisualStyleBackColor = true;
+			this.BtDescobrirCep.Click += new System.EventHandler(this.BtDescobrirCep_Click);
+			// 
+			// BtSearch
+			// 
+			this.BtSearch.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+			this.BtSearch.AutoSize = false;
+			this.BtSearch.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
+			this.BtSearch.Depth = 0;
+			this.BtSearch.DrawShadows = true;
+			this.BtSearch.HighEmphasis = true;
+			this.BtSearch.Icon = global::menew_teste3.Properties.Resources.icons8_search_641;
+			this.BtSearch.ImageAlign = System.Drawing.ContentAlignment.MiddleRight;
+			this.BtSearch.Location = new System.Drawing.Point(790, 25);
+			this.BtSearch.Margin = new System.Windows.Forms.Padding(4, 6, 4, 6);
+			this.BtSearch.MouseState = MaterialSkin.MouseState.HOVER;
+			this.BtSearch.Name = "BtSearch";
+			this.BtSearch.Size = new System.Drawing.Size(41, 34);
+			this.BtSearch.TabIndex = 19;
+			this.BtSearch.Text = "      ";
+			this.BtSearch.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
+			this.BtSearch.Type = MaterialSkin.Controls.MaterialButton.MaterialButtonType.Outlined;
+			this.BtSearch.UseAccentColor = true;
+			this.BtSearch.UseVisualStyleBackColor = true;
+			this.BtSearch.Click += new System.EventHandler(this.BtSearch_Click);
+			// 
 			// Clientes
 			// 
 			this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
 			this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
 			this.ClientSize = new System.Drawing.Size(844, 450);
-			this.Controls.Add(this.BtCarregarCep);
+			this.Controls.Add(this.BtDescobrirCep);
 			this.Controls.Add(this.Pn1);
+			this.Controls.Add(this.panel1);
+			this.Controls.Add(this.LbSearch);
+			this.Controls.Add(this.BtSearch);
+			this.Controls.Add(this.TxSearch);
+			this.Controls.Add(this.BtCarregarCep);
 			this.Controls.Add(this.GridClientes);
-			this.Controls.Add(this.BtDeletarCliente);
-			this.Controls.Add(this.BtEditarCliente);
-			this.Controls.Add(this.BtNovoCliente);
 			this.Controls.Add(this.TxComplemento);
 			this.Controls.Add(this.TxNumero);
-			this.Controls.Add(this.TxRua);
 			this.Controls.Add(this.TxUf);
 			this.Controls.Add(this.TxCidade);
 			this.Controls.Add(this.materialDivider1);
@@ -391,13 +489,16 @@ namespace menew_teste3
 			this.Controls.Add(this.TxEmail);
 			this.Controls.Add(this.TxTelefone);
 			this.Controls.Add(this.TxNomeCliente);
+			this.Controls.Add(this.TxRua);
 			this.MaximizeBox = false;
 			this.MinimumSize = new System.Drawing.Size(844, 450);
 			this.Name = "Clientes";
+			this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
 			this.Text = "Cadastro de clientes";
 			this.Load += new System.EventHandler(this.Clientes_Load);
 			((System.ComponentModel.ISupportInitialize)(this.GridClientes)).EndInit();
 			this.Pn1.ResumeLayout(false);
+			this.panel1.ResumeLayout(false);
 			this.ResumeLayout(false);
 
 		}
@@ -414,14 +515,19 @@ namespace menew_teste3
 		private MaterialSkin.Controls.MaterialTextBox TxRua;
 		private MaterialSkin.Controls.MaterialTextBox TxNumero;
 		private MaterialSkin.Controls.MaterialTextBox TxComplemento;
-		private MaterialSkin.Controls.MaterialButton BtNovoCliente;
-		private MaterialSkin.Controls.MaterialButton BtEditarCliente;
-		private MaterialSkin.Controls.MaterialButton BtDeletarCliente;
 		private System.Windows.Forms.DataGridView GridClientes;
 		private System.Windows.Forms.Panel Pn1;
 		private MaterialSkin.Controls.MaterialButton BtSalvar;
 		private MaterialSkin.Controls.MaterialButton BtCancelar;
 		private MaterialSkin.Controls.MaterialButton BtCarregarCep;
+		private MaterialSkin.Controls.MaterialTextBox TxSearch;
+		private System.Windows.Forms.Label LbSearch;
+		private MaterialSkin.Controls.MaterialButton BtSearch;
+		private System.Windows.Forms.Panel panel1;
+		private MaterialSkin.Controls.MaterialButton BtDeletarCliente;
+		private MaterialSkin.Controls.MaterialButton BtEditarCliente;
+		private MaterialSkin.Controls.MaterialButton BtNovoCliente;
+		private MaterialSkin.Controls.MaterialButton BtDescobrirCep;
 	}
 }
 

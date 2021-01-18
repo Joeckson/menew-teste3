@@ -1,6 +1,6 @@
 ﻿namespace menew_teste3.MVC.Models
 {
-	public class ModelUser : ModelGeneric
+	public class ModelCliente : ModelGeneric
 	{
 		public int Id { get; set; }
 		public string Nome { get; set; }

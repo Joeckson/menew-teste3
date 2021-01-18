@@ -57,6 +57,8 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="APIs\EncontrarCepLogradouro.cs" />
+    <Compile Include="MVC\Controls\ControlBuscaCepLogradouro.cs" />
     <Compile Include="MVC\Controls\ControlCep.cs" />
     <Compile Include="MVC\Controls\ControlCliente.cs" />
     <Compile Include="MVC\Controls\Service\FileIni.cs" />
@@ -67,7 +69,13 @@
     <Compile Include="MVC\Models\ModelConnection.cs" />
     <Compile Include="MVC\Models\ModelGeneric.cs" />
     <Compile Include="MVC\Models\ModelJsonCep.cs" />
-    <Compile Include="MVC\Models\ModelUser.cs" />
+    <Compile Include="MVC\Models\ModelCliente.cs" />
+    <Compile Include="MVC\Views\BuscarCepLogradouro.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MVC\Views\BuscarCepLogradouro.Designer.cs">
+      <DependentUpon>BuscarCepLogradouro.cs</DependentUpon>
+    </Compile>
     <Compile Include="MVC\Views\Clientes.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -76,6 +84,9 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="MVC\Views\BuscarCepLogradouro.resx">
+      <DependentUpon>BuscarCepLogradouro.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="MVC\Views\Clientes.resx">
       <DependentUpon>Clientes.cs</DependentUpon>
     </EmbeddedResource>
@@ -87,6 +98,7 @@
     <Compile Include="Properties\Resources.Designer.cs">
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
     </Compile>
     <None Include="DataBase\CLIENTS.FDB" />
     <None Include="packages.config" />
@@ -105,6 +117,7 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="pack\MaterialSkin.dll" />
+    <None Include="Resources\icons8_search_641.png" />
   </ItemGroup>
   <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

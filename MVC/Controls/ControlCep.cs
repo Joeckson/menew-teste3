@@ -5,13 +5,19 @@ using Newtonsoft.Json;
 using System.IO;
 using System;
 using menew_teste3.MVC.Controls.Service;
+using menew_teste3.APIs;
 using System.Collections.Generic;
 
 namespace menew_teste3.MVC.Controls
 {
 	public class ControlCep
 	{
-		public static async Task<ModelJsonCep> BuscarCep(string cep)
+		public static async Task<string> AsyncBuscarLogradouro(string Logradouro)
+		{
+			return await EncontrarCepLogradouro.SearchCep(Logradouro);
+		}
+
+		public static async Task<ModelJsonCep> AsyncBuscarCep(string cep)
 		{
 			var ModelCep = new ModelJsonCep()
 			{

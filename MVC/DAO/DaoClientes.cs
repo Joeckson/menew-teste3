@@ -7,7 +7,7 @@ using menew_teste3.MVC.Models;
 
 namespace menew_teste3.MVC.DAO
 {
-	public class DaoClientes : DaoGeneric<ModelUser>
+	public class DaoClientes : DaoGeneric<ModelCliente>
 	{
 	}
 }
