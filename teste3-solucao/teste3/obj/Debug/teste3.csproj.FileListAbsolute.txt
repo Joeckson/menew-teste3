@@ -1,0 +1,14 @@
+D:\VSCODE Projects\teste3-solucao\teste3\bin\Debug\teste3.exe
+D:\VSCODE Projects\teste3-solucao\teste3\bin\Debug\teste3.pdb
+D:\VSCODE Projects\teste3-solucao\teste3\obj\Debug\teste3.csprojAssemblyReference.cache
+D:\VSCODE Projects\teste3-solucao\teste3\obj\Debug\teste3.Form1.resources
+D:\VSCODE Projects\teste3-solucao\teste3\obj\Debug\teste3.Properties.Resources.resources
+D:\VSCODE Projects\teste3-solucao\teste3\obj\Debug\teste3.csproj.GenerateResource.cache
+D:\VSCODE Projects\teste3-solucao\teste3\obj\Debug\teste3.csproj.CoreCompileInputs.cache
+D:\VSCODE Projects\teste3-solucao\teste3\obj\Debug\teste3.exe
+D:\VSCODE Projects\teste3-solucao\teste3\obj\Debug\teste3.pdb
+D:\VSCODE Projects\teste3-solucao\teste3\bin\Debug\FirebirdSql.Data.FirebirdClient.dll
+D:\VSCODE Projects\teste3-solucao\teste3\obj\Debug\teste3.csproj.CopyComplete
+D:\VSCODE Projects\teste3-solucao\teste3\bin\Debug\teste3.exe.config
+D:\VSCODE Projects\teste3-solucao\teste3\bin\Debug\Correios.Net.dll
+D:\VSCODE Projects\teste3-solucao\teste3\bin\Debug\Correios.Net.pdb
